@@ -1,0 +1,26 @@
+JVM info: Red Hat, Inc. - 17.0.7 - 17.0.7+7
+java.net.preferIPv4Stack=true
+Found java version 17.0.7
+Exception in thread "main" 
+java.lang.UnsatisfiedLinkError: Can't load library: /usr/lib/jvm/java-17-openjdk-17.0.7.0.7-5.fc38.x86_64/lib/libawt_xawt.so
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2393)
+	at java.base/java.lang.Runtime.load0(Runtime.java:755)
+	at java.base/java.lang.System.load(System.java:1953)
+	at java.base/jdk.internal.loader.NativeLibraries.load(Native Method)
+	at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:388)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:232)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:174)
+	at java.base/jdk.internal.loader.NativeLibraries.findFromPaths(NativeLibraries.java:315)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:285)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2398)
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:818)
+	at java.base/java.lang.System.loadLibrary(System.java:1989)
+	at java.desktop/java.awt.Toolkit$2.run(Toolkit.java:1392)
+	at java.desktop/java.awt.Toolkit$2.run(Toolkit.java:1390)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at java.desktop/java.awt.Toolkit.loadLibraries(Toolkit.java:1389)
+	at java.desktop/java.awt.Toolkit.initStatic(Toolkit.java:1427)
+	at java.desktop/java.awt.Toolkit.<clinit>(Toolkit.java:1401)
+	at java.desktop/javax.swing.UIManager.getSystemLookAndFeelClassName(UIManager.java:668)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:166)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:147)
